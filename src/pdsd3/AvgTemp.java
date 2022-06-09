@@ -18,10 +18,10 @@ public class AvgTemp {
 
     public static class AvgTuple implements Writable {
 
-        private int sumMin;
-        private int minCnt;
-        private int sumMax;
-        private int maxCnt;
+        private int sumMin = 0;
+        private int minCnt = 0;
+        private int sumMax = 0;
+        private int maxCnt = 0;
 
         public int getSumMin() {
             return sumMin;
